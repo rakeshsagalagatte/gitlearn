@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 qwie qewfi
 wrg
 erg
 wrtg
 rttgg
+=======
+rakeaf
+er
+ewr
+gerwerg
+erg
+eg
+ewg
+>>>>>>> master
