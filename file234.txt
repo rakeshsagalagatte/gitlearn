@@ -1,4 +1,5 @@
 wejrioufheiwru wergiewrh gwerg er
+<<<<<<< HEAD
 wiorhgiu rttg7tut2ggggn4kgg jrgioj4otg 4jgni4tgn 4rogjj4tg4 4gj4tpg 4goij4tt goirg eroijgrg org
 rgj2o4gt 4tg 4go4tg rogjtg  rttggoirgt rtt gor
 
@@ -16,3 +17,7 @@ wer
 ewrg
 reg
 akshit
+=======
+wiorhgiu rttg7tutj
+rachure
+>>>>>>> master
