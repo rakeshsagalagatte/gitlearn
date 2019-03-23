@@ -1,6 +1,0 @@
-<<<<<<< HEAD
-akshit
-rakesh
-=======
-rachure
->>>>>>> master
