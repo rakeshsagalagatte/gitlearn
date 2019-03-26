@@ -1,0 +1,26 @@
+ORG 00H
+    SJMP 30H
+ORG 30H
+      N EQU 30H
+	  FACT EQU 31H
+	  MOV R2,N
+	  ACALL FACTORIAL  
+	  MOV FACT,A
+	  SJMP LOOP
+
+ FACTORIAL : 
+             MOV A,R2
+			 CLR C
+			 SUBB A,#1
+			 JZ RETONE 
+			 JC RETONE
+			 PUSH 02H 
+			 DEC R2
+			 ACALL FACTORIAL
+			 POP 0F0H
+			 MUL AB
+			 RET
+  RETONE : MOV A,#1
+            RET
+	LOOP :SJMP LOOP
+	END

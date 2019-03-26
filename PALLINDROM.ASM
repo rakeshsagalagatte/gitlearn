@@ -1,0 +1,26 @@
+;PALLINDROM PROGRAM
+
+ORG 00H 
+    SJMP 30H
+ORG 30H
+       N EQU 30H
+	   PAL EQU 31H
+	   MOV PAL,#00H
+	   MOV 20H,N
+	   MOV C,07H
+	   MOV 08H,C
+	   MOV C,06H
+	   MOV 09H,C
+	   MOV C,05H
+	   MOV 0AH,C
+	   MOV C,04H
+	   MOV 0BH,C
+	   ANL 20H,#0FH
+	   ANL 21H,#0FH
+	   CLR C
+	   MOV A,20H
+	   SUBB A,21H
+	   JNZ LOOP
+	   MOV PAL,#1
+  LOOP : SJMP LOOP
+ END
